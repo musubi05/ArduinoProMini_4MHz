@@ -1,0 +1,31 @@
+# Optiboot Arduino support
+# http://optiboot.googlecode.com
+# Peter Knight, 2010
+# Bill Westfield, 2013 - now includes build.variant for 1.0.2 and later
+# Yugo Kajiwara, 2017
+
+##############################################################
+
+## Arduino Pro or Pro Mini (1.8V, 4 MHz) w/ ATmega328
+## -------------------------------------------------
+pro328p4mhz.name=[PLEN] Arduino Pro Mini 4MHz
+pro328p4mhz.upload.tool=arduino:avrdude
+pro328p4mhz.upload.protocol=arduino
+pro328p4mhz.upload.maximum_size=30720
+pro328p4mhz.upload.maxinum_data_size=2048
+pro328p4mhz.upload.speed=9600
+
+pro328p4mhz.bootloader.low_fuses=0xfd
+pro328p4mhz.bootloader.high_fuses=0xdf
+pro328p4mhz.bootloader.extended_fuses=0x07
+pro328p4mhz.bootloader.path=optiboot
+pro328p4mhz.bootloader.file=optiboot/optiboot_atmega328_pro_4MHz.hex
+pro328p4mhz.bootloader.unlock_bits=0x3F
+pro328p4mhz.bootloader.lock_bits=0x0F
+pro328p4mhz.bootloader.tool=arduino:avrdude
+
+pro328p4mhz.build.mcu=atmega328pa
+pro328p4mhz.build.f_cpu=4000000L
+pro328p4mhz.build.core=arduino:arduino
+pro328p4mhz.build.variant=arduino:standard
+pro328p4mhz.build.board=AVR_PRO_4MHZ
