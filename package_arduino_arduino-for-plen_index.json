@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/musubi05/ArduinoProMini_4MHz/archive/v1.0.zip",
           "archiveFileName": "plen_arduino.zip",
-          "checksum": "SHA-256:50689985970ec550518efd12079651911d344b793abbe8cf18184597a72cc05e",
+          "checksum": "SHA-256:590e22361f35d59fa962672b701d907a9ca42ed89a7783262f04f2729813a6c5",
           "size": "39001",
           "boards": [
             {"name": "Arduino Pro Mini 4MHz"}
