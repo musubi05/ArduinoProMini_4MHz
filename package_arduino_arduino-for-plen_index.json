@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Arduino Bootloaders for PLEN",
+      "name": "ArduinoPLEN",
       "maintainer": "Yugo Kajiwara",
       "websiteURL": "https://github.com/musubi05/ArduinoProMini_4MHz",
       "email": "",
@@ -10,17 +10,17 @@
       },
       "platforms": [
         {
-          "name": "Arduino Bootloaders",
+          "name": "ArduinoPLEN 1.0.0",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "Optiboot",
+          "category": "Arduino",
           "help": {
             "online": ""
           },
           "url": "https://github.com/musubi05/ArduinoProMini_4MHz/archive/v1.0.zip",
-          "archiveFileName": "optiboot.zip",
-          "checksum": "SHA-256:72ba4b1d67ac5517c9fbf04ecb18f183fbc9c0572df3b5daed40d1e0b92ff29f",
-          "size": "39126",
+          "archiveFileName": "plen_arduino.zip",
+          "checksum": "SHA-256:dcac286c0226cd83696e96d9471205e03f9af3f645a904fba85c24b4dbae86c8",
+          "size": "39022",
           "boards": [
             {"name": "Arduino Pro Mini 4MHz"}
           ],
