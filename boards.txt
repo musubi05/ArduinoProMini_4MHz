@@ -16,15 +16,15 @@ pro328p4mhz.upload.maxinum_data_size=2048
 pro328p4mhz.upload.speed=9600
 
 pro328p4mhz.bootloader.low_fuses=0xfd
-pro328p4mhz.bootloader.high_fuses=0xdf
+pro328p4mhz.bootloader.high_fuses=0xde
 pro328p4mhz.bootloader.extended_fuses=0x07
 pro328p4mhz.bootloader.path=optiboot
 pro328p4mhz.bootloader.file=optiboot/optiboot_atmega328_pro_4MHz.hex
-pro328p4mhz.bootloader.unlock_bits=0x3F
-pro328p4mhz.bootloader.lock_bits=0x0F
+pro328p4mhz.bootloader.unlock_bits=0x2F
+pro328p4mhz.bootloader.lock_bits=0x2F
 pro328p4mhz.bootloader.tool=arduino:avrdude
 
-pro328p4mhz.build.mcu=atmega328pa
+pro328p4mhz.build.mcu=atmega328p
 pro328p4mhz.build.f_cpu=4000000L
 pro328p4mhz.build.core=arduino:arduino
 pro328p4mhz.build.variant=arduino:standard
